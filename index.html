@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Promotion component -->
+    <div class="bg-indigo-600 px-4 py-3 text-white">
+        <p class="text-center text-sm font-medium">
+          Promo 50%
+          <a href="#" class="inline-block underline">Berlaku untuk hari ini saja</a>
+        </p>
+      </div>
+    <!-- End promotion component -->
+
+    <!-- Navbar -->
+    <header>
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <div class="text-center sm:text-left">
+              <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">Welcome, Pembeli korea-kun!</h1>
+      
+              <p class="mt-1.5 text-sm text-gray-500">Perut kenyang hati pun senang</p>
+            </div>
+      
+            <div class="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
+              <button
+                class="inline-flex items-center justify-center gap-1.5 rounded-lg border border-gray-200 px-5 py-3 text-gray-500 transition hover:bg-gray-50 hover:text-gray-700 focus:outline-none focus:ring"
+                type="button"
+              >
+                <span class="text-sm font-medium"><a href="#footer">Cara Belanja</a></span>
+              </button>
+      
+              <button
+                class="block rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+                type="button"
+              >
+                <a href="https://wa.me/628111267771" target="_blank">Chat Admin</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+    <!-- End Navbar -->
+
+    <!-- Call to action component -->
+<section class="bg-gray-50">
+    <div class="p-8 md:p-12 lg:px-16 lg:py-24">
+      <div class="mx-auto max-w-lg text-center">
+        <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
+          KOREA-KUN CING ITA
+        </h2>
+  
+        <p class="hidden text-gray-500 sm:mt-4 sm:block">
+          Pernah denger Korea-kun? Korea-kun adalah sebuah jajanan korea dengan menggunakan bumbu khas tradisional korea, hanya bermodalkan 10.000 saja temen-temen sudah bisa menyantap jajanan korea-kun loh.
+        </p>
+      </div>
+  
+      <div class="mx-auto mt-8 max-w-xl">
+        <form action="#" class="sm:flex sm:gap-4">
+          <div class="sm:flex-1">
+            <input
+              type="text"
+              placeholder="Korea-kun"
+              class="w-full rounded-md border-gray-200 bg-white p-3 text-gray-700 shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-indigo-400"
+            />
+          </div>
+  
+          <button
+            type="submit"
+            class="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-indigo-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+          >
+            <span class="text-sm font-medium"><a href="#odeng">Cari Barang</a></span>
+  
+            <svg
+              class="size-5 rtl:rotate-180"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+    <!-- End Call to action component -->
+
+    <!-- product list component -->
+    <div class="container grid grid-cols-3 gap-4 max-w-xl mx-auto py-8" id="odeng">
+        <a href="https://wa.me/628111267771" class="group block " target="_blank">
+            <img
+              src="odeng.jpeg"
+              alt=""
+              class="aspect-square w-full rounded object-cover"
+            />
+            <div class="mt-3">
+              <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                Korea-kun Odeng
+              </h3>
+          
+              <p class="mt-1 text-sm text-gray-700">Rp 15.000</p>
+              <p class="mt-1 text-sm text-gray-700">Odeng adalah makanan korea yang banyak diminati oleh orang korea dan sangat enak di santap saat siang hari.</p>
+            </div>
+          </a>
+          <a href="https://wa.me/628111267771" class="group block" target="_blank">
+            <img
+              src="./gochujang.jpeg"
+              alt=""
+              class="aspect-square w-full rounded object-cover"
+            />
+            <div class="mt-3">
+              <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                Korea-kun All-varian gochujang
+              </h3>
+          
+              <p class="mt-1 text-sm text-gray-700">Rp 10.000</p>
+              <p class="mt-1 text-sm text-gray-700">Bumbu Gochujang adalah bumbu khas tradisional korea yang terkenal akan rasa pedas manis, sangat cocok untuk orang yang sedang bersedih atau banyak pikiran.</p>
+            </div>
+          </a>
+          <a href="https://wa.me/628111267771" class="group block" target="_blank">
+            <img
+              src="all-variant.jpeg"
+              alt=""
+              class="aspect-square w-full rounded object-cover"
+            />
+          
+            <div class="mt-3">
+              <h3 class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                Korea-kun All-variant Original
+              </h3>
+          
+              <p class="mt-1 text-sm text-gray-700">Rp 10.000</p>
+              <p class="mt-1 text-sm text-gray-700">Dengan harga 10.000 kalian sudah bisa dapat 4 varian loh bebas milih sesuai selera, enak bukan? tunggu apalagi ayo order sekarang.</p>
+            </div>
+          </a>
+    </div>
+    <!-- End product lsit component -->
+
+    <!-- footer -->
+    <footer class="bg-white lg:grid lg:grid-cols-5 id" id="footer">
+        <div class="relative block h-32 lg:col-span-2 lg:h-full">
+          <img
+            src="./jajanan.jpg"
+            alt=""
+            class="absolute inset-0 h-full w-full object-cover"
+          />
+        </div>
+      
+        <div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
+          <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+            <div>
+              <p>
+                <span class="text-xs uppercase tracking-wide text-gray-500"> Call us </span>
+      
+                <a href="#" class="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl">
+                    0811-1267-771
+                </a>
+              </p>
+      
+              <ul class="mt-8 space-y-1 text-sm text-gray-700">
+                <li>Setiap hari : jam 8 Pagi - 5 Sore</li>
+              </ul>
+      
+              <ul class="mt-8 flex gap-6">
+                <li>
+                  <a
+                    href="#"
+                    rel="noreferrer"
+                    target="_blank"
+                    class="text-gray-700 transition hover:opacity-75"
+                  >
+                <span class="[&>svg]:h-5 [&>svg]:w-5">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 448 512">
+                      <a href="https://wa.me/6281285750876"></a>
+                      <path
+                        d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                    </svg>
+                  </span>
+      
+                <li>
+                  <a
+                    href="#"
+                    rel="noreferrer"
+                    target="_blank"
+                    class="text-gray-700 transition hover:opacity-75"
+                  >
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+      
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <div>
+                <p class="font-medium text-gray-900">Cara memesan</p>
+      
+                <ul class="mt-6 space-y-4 text-sm">
+                  <li>
+                    <a href="#" class="text-gray-700 transition hover:opacity-75">Klik nama barang yang ingin kita beli otomatis akan langsung ke WA penjual </a>
+                  </li>
+                </ul>
+              </div>
+      
+              <div>
+                <p class="font-medium text-gray-900">Ucapan Terimakasih</p>
+      
+                <ul class="mt-6 space-y-4 text-sm">
+                  <li>
+                    <a href="#" class="text-gray-700 transition hover:opacity-75"> Terimakasih untuk yang sudah membeli jajanan Korea-kun jika memang ada masukan silahkan chat nomer yang tertera dan jika memang rasa nya enak boleh kirim testimoni kalian. </a>
+                  </li>
+      
+                  <li>
+                    <a href="#" class="text-gray-700 transition hover:opacity-75"> Terimakasih Banyak!! </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <div class="mt-12 border-t border-gray-100 pt-12">
+            <div class="sm:flex sm:items-center sm:justify-between">
+              <ul class="flex flex-wrap gap-4 text-xs">
+                <li>
+                  <a href="#" class="text-gray-500 transition hover:opacity-75"> Terms & Conditions </a>
+                </li>
+      
+                <li>
+                  <a href="#" class="text-gray-500 transition hover:opacity-75"> Privacy Policy </a>
+                </li>
+      
+                <li>
+                  <a href="#" class="text-gray-500 transition hover:opacity-75"> Cookies </a>
+                </li>
+              </ul>
+      
+              <p class="mt-8 text-xs text-gray-500 sm:mt-0">
+                &copy; 2024. Korea-kun. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- end footer -->
+</body>
+</html>
